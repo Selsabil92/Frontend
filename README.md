@@ -1,13 +1,13 @@
-# Security Toolbox Frontend
+## Frontend de la boîte à outils de sécurité
 
-Ce projet est le frontend de l'application Security Toolbox. Il comprend des composants pour l'authentification, le tableau de bord et les analyses de sécurité.
+Ce projet est le frontend de l'application Security Toolbox, il vient en complément de la partie Backend : https://github.com/Selsabil92/Backend. Il comprend des composants pour l'authentification, le tableau de bord et les analyses de sécurité.
 
 ## Prérequis
 
 Avant de commencer, assurez-vous d'avoir les prérequis suivants installés :
 - Node.js
 
-## Getting Started
+## Déploiement
 
 Pour commencer, clonez ce dépot:
    
