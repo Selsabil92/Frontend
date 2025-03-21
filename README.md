@@ -5,7 +5,7 @@ Ce projet est le frontend de l'application Security Toolbox. Il comprend des com
 ## Prérequis
 
 Avant de commencer, assurez-vous d'avoir les prérequis suivants installés :
-- Node
+- Node.js
 
 ## Getting Started
 
