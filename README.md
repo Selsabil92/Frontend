@@ -8,4 +8,6 @@ To get started, clone the repository and install the dependencies:
 
 git clone https://github.com/Selsabil92/Frontend.git
 
-cd frontend npm install
+cd frontend 
+
+npm install
