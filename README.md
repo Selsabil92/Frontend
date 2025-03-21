@@ -10,10 +10,7 @@ To get started, clone the repository and install the dependencies:
     git clone https://github.com/Selsabil92/Frontend.git
 Test
 
-    ```bash
     cd frontend
-    ```
 
-    ```bash
     npm install
-    ```
+
