@@ -7,6 +7,7 @@ This project is the frontend for the Security Toolbox application. It includes c
 To get started, clone the repository and install the dependencies:
 
     ```git clone https://github.com/Selsabil92/Frontend.git
+    ```
 
     ```cd frontend 
 
