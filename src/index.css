@@ -1,36 +1,109 @@
 /* Styles globaux */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #2a5a9c75;
-    color: #0a6fe2;
-  }
-  
-  /* Ajouter des styles par défaut */
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .bg-gray-100 {
-    background-color: #f7fafc;
-  }
-  
-  .p-4 {
-    padding: 1rem;
-  }
-  
-  .text-2xl {
-    font-size: 2rem;
-  }
-  
-  .font-bold {
-    font-weight: bold;
-  }
-  
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #c5c5c5; /* Couleur de fond douce */
+  color: #0a6fe2; /* Couleur du texte */
+  text-align: center;
+}
+
+/* Barre de navigation */
+nav {
+  display: flex; /* Aligne les éléments horizontalement */
+  justify-content: center; /* Centre les liens horizontalement */
+  align-items: center; /* Aligne les liens verticalement */
+  background-color: #000000; /* Couleur de fond de la barre */
+  padding: 15px; /* Espacement interne */
+}
+
+nav ul {
+  display: flex; /* Aligne les liens horizontalement */
+  list-style-type: none; /* Supprime les puces des listes */
+  gap: 20px; /* Ajoute un espace entre chaque lien */
+}
+
+nav a {
+  color: white; /* Couleur du texte des liens */
+  text-decoration: none; /* Supprime le soulignement des liens */
+  font-size: 1.2rem; /* Taille du texte */
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline; /* Ajoute un soulignement au survol des liens */
+}
+
+/* Conteneur principal pour centrer le contenu sous le menu */
+.main-content {
+  display: flex; /* Active Flexbox pour centrer les éléments */
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  min-height: calc(100vh - 60px); /* Hauteur totale moins la hauteur du menu */
+}
+
+/* Conteneur interne pour le contenu principal */
+.content-box {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+}
+
+/* Champ de saisie pour la cible (Cible IP/Domaine) */
+input[type="text"] {
+  margin-top: 20px;
+  width: calc(100% - 20px); /* Ajuste la largeur par rapport au conteneur parent */
+  max-width: 300px; /* Limite la largeur maximale */
+  padding: 10px;
+  border-radius: 5px;
+  border: solid #ccc 1px;
+  margin-right: 5px;
+}
+
+/* Sélecteur (Nmap 🔍) */
+select {
+  width: calc(100% - 20px); /* Ajuste la largeur par rapport au conteneur parent */
+  max-width: 300px; /* Limite la largeur maximale */
+  padding: 10px;
+  border-radius: 5px;
+  border: solid #ccc 1px;
+  margin-right: 5px;
+}
+
+/* Bouton pour lancer le scan */
+button {
+  width: calc(100% - 20px); /* Ajuste la largeur par rapport au conteneur parent */
+  max-width: 300px; /* Limite la largeur maximale */
+  padding: 10px;
+  border-radius: 5px;
+  border: solid #ccc 1px;
+  margin-bottom: 50px;
+}
+
+button:hover {
+  background-color: #1b9bce; /* Couleur plus foncée au survol */
+}
+
+
+/* Image dans la section principale */
+img {
+  max-width: 100%;
+  height: auto;
+  padding: 50px;
+   
+}
+
+
+/* Pied de page */
+footer {
+  margin-top: 100px;
+  text-align: center;
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+}
