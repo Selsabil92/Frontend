@@ -17,3 +17,7 @@ Pour commencer, clonez ce dépot:
 Installez les dépendences:
 
     npm install
+
+Puis le démarrer:
+
+   npm start
