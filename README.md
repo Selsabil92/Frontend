@@ -19,6 +19,7 @@ Installez les dépendences:
     npm install
 
 Puis le démarrer:
-
-   npm start
    
+    npm start
+
+
