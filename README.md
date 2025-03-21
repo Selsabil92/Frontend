@@ -8,7 +8,12 @@ To get started, clone the repository and install the dependencies:
 
     ```git clone https://github.com/Selsabil92/Frontend.git
     ```
+Test
 
-    ```cd frontend 
+    ```bash
+    cd frontend
+    ```
 
-    ```npm install
+    ```bash
+    npm install
+    ```
